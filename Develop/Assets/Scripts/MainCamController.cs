@@ -27,7 +27,7 @@ public class MainCamController : MonoBehaviour
         if(this.gameObject.transform.rotation.y <= 0.0001f)
         {
             Debug.Log(Application.dataPath);
-            destination.gameObject.transform.GetChild(0).gameObject.active = true;
+            destination.active = true;
 
             this.gameObject.active = false;
 
